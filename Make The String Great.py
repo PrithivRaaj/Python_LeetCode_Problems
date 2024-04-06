@@ -10,7 +10,6 @@ class Solution:
                 Anser.append(ch)
         return "".join(Anser)
 
-solution_instance = Solution()  # Creating an instance of Solution class
-char=input()
-result = solution_instance.makeGood(char)
-print(result)  # Output: ''
+String_Great=Solution()
+result=input()
+print(String_Great.makeGood(result))
