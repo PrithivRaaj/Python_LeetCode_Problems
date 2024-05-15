@@ -11,18 +11,24 @@ Left parenthesis '(' must go before the corresponding right parenthesis ')'.
 Example 1:
 
 Input: s = "()"
+
 Output: true
+
 Example 2:
 
 Input: s = "(*)"
+
 Output: true
+
 Example 3:
 
 Input: s = "(*))"
+
 Output: true
  
 
 Constraints:
 
 1 <= s.length <= 100
+
 s[i] is '(', ')' or '*'.
